@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region"
   type = string
-  default = "us-east-1"
+  default = "us-east-2"
 }
 
 variable "vpc-name" {
@@ -56,7 +56,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 keypair"
   type        = string
-  default     = "gitopskey"
+  default     = "mynewpair"
 }
 
 variable "instance_name" {
